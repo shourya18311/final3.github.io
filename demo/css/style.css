@@ -53,8 +53,7 @@
           font-size: 4vw;
           color: #6C4C35;
           font-family: 'Playfair Display', sans-serif;
-          margin-right: 3.5vw;
-          margin-left: -1.5vw;
+        
 
       }
 
@@ -120,7 +119,7 @@
 }
 
 .button {
-    margin-left: 72vw;
+    margin-left: 69vw;
     color: #6C4C35;
     position: relative;
     font-size: 5px;
@@ -676,7 +675,7 @@
 }
 
 .button{
-  margin-left: 75vw;
+  margin-left: 74vw;
   font-size: 1vw;
 }
 .xyz {
@@ -692,6 +691,10 @@
   margin-top: 45vh;
 }
 
+.xyz{
+  margin-right: 4vw;
+  margin-left: -1.7vw;
+}
 
 
 
@@ -861,6 +864,10 @@
   .distancebetweencontainer1{
     margin-top: 5vh;
   }
+  .xyz{
+    margin-right: 0vw;
+    margin-left: 0vw;
+  }
  
   
 
@@ -1017,6 +1024,11 @@ height: 47vh;
   margin-top: 5vh;
 }
 
+.xyz{
+  margin-right: 0vw;
+  margin-left: 0vw;
+}
+
 
 
 
@@ -1165,6 +1177,10 @@ height: 47vh;
 
   .distancebetweencontainer1{
     margin-top: 5vh;
+  }
+  .xyz{
+    margin-right: 0vw;
+    margin-left: 0vw;
   }
   
   
