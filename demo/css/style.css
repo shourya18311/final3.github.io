@@ -237,7 +237,7 @@
 .p1{
   margin-left: 54vw; 
  
-  width: 35vw; font-size: 1.2vw; 
+  width: 40vw; font-size: 1.2vw; 
   font-family:'Montserrat' , sans-serif; 
    color: #222222; z-index: 1;
    margin-top: -10vh;
@@ -336,7 +336,7 @@
   margin-left: 7.9vw; 
   text-align: right;
  
-  width: 35vw; font-size: 1.2vw; 
+  width: 45vw; font-size: 1.2vw; 
   font-family:'Montserrat' , open sans; 
    color: #222222; z-index: 1;
    margin-top: -10vh;
@@ -973,9 +973,9 @@ height: 47vh;
 .p2{
     
   margin-left: 8vw;
-  font-size: 3vw;
+  font-size: 2.8vw;
   margin-top: 0.5vh;
-  width: 87vw;
+  width: 90vw;
   padding-right: 1vw;
   text-align: unset;
 }
@@ -1034,6 +1034,13 @@ height: 47vh;
 .xyz{
   margin-right: 0vw;
   margin-left: 0vw;
+}
+
+.p1_2{
+  margin-left: 8vw;
+  margin-top: -0.5vh;
+
+  font-size: 3vw;
 }
 
 
@@ -1118,7 +1125,7 @@ height: 47vh;
     
     margin-left: 8vw;
     font-size: 3vw;
-    width: 85vw;
+    width: 95vw;
     padding-right: 0.8vw;
     max-height: 3vh;
     margin-top: 1vw;
