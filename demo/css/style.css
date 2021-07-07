@@ -27,7 +27,9 @@
       ========================================================================== */
    
    /* ---- base ---- */
-
+html{
+  overflow-x:hidden;
+}
   
    *{
     margin: 0;
@@ -220,7 +222,7 @@
 
 .container1{
   background-color: #90b8d2; 
-  height: 60vh; width: 45vw; 
+  height: 30vw; width: 45vw; 
   margin-left: 8vw; 
   margin-top: 4vh;
 }
@@ -372,6 +374,73 @@
 .distancebetweencontainer1{
   margin-top: 50vh;
 }
+
+
+.mainpic{
+  height: 90vh; width: 70vh; margin-top: 20vh; margin-left: 9.5vw;
+}
+
+.shouryaname{
+  color:black;  
+  font-family:'Canela', serif;  
+  font-size:  3.5vw; margin-top: 25vh;
+   margin-left: -11.5vw;
+    padding: 0px 0px; z-index: 1;
+}
+
+.shouryahin{
+  color:black; 
+   font-family:'Montserrat' , open sans;  
+   font-size:  1.4vw; 
+   margin-top: 0.8vh; 
+   margin-left: 2.8vw;
+    padding: 0px 0px; z-index: 1;
+}
+
+.brownstrip{
+  background-color: #6C4C35;
+   height: 30vw; width: 100%;  
+   margin-top: 8.5vw; 
+   z-index: -1; opacity: 87%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
