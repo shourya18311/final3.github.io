@@ -101,7 +101,7 @@ html{
   .shouryaname{
     color:black;  
     font-family:'Canela', serif;  
-    font-size:  3.5vw; margin-top: 25vh;
+    font-size:  3.5vw; margin-top: 15vw;
      margin-left: -11.5vw;
       padding: 0px 0px; z-index: 1;
   }
@@ -184,7 +184,7 @@ html{
 
 
 .mebio{
-    margin-left: 0vw; margin-top: 6vh;  font-size: 1.3vw; font-family:'Karla' , sans-serif;  color: #222222; width: 38vw; line-height: 1.4;
+    margin-left: 0vw; margin-top: 3vw;  font-size: 1.3vw; font-family:'Karla' , sans-serif;  color: #222222; width: 38vw; line-height: 1.4;
 }
 
 
@@ -308,5 +308,50 @@ html{
     .xyz{
       margin-right: 0vw;
       margin-left: 0vw;
+    }
+
+    .shouryaname{
+        color:black;  
+        font-family:'Canela', serif;  
+        font-size:  8.5vw; margin-top: 5vw;
+         margin-left: 13vw;
+          padding: 0px 0px; z-index: 1;
+      }
+      
+      .shouryahin{
+        color:black; 
+         font-family:'canela' , serif;  
+         font-size:  5vw; 
+         margin-top: -0vw; 
+         margin-left: 65vw;
+          padding: 0px 0px; z-index: 1;
+      }
+
+      .mebio{
+        margin-left: 12vw; margin-top: 3vw;  font-size: 3.8vw; font-family:'Karla' , sans-serif;  color: #222222; width: 80vw; line-height: 1.4;
+    }
+
+    .remove{
+        display: hidden;
+        visibility: hidden;
+    }
+
+    .me1{visibility: hidden;}
+
+    .quote{
+        font-size: 8vw; font-family:'Canela', serif; width: 80vw;
+        margin-top: -25vw;
+        margin-left: 11vw;
+    }
+
+    .brownstrip{
+        background-color: #6C4C35;
+         height: 35vw; width: 100%;  
+         margin-top: 8.5vw; 
+         z-index: -1; opacity: 87%;
+      }
+
+      .skillstack{
+        font-size: 7vw; font-family:'Canela', serif; color: #000000; margin-left: -50vw;
     }
 }
