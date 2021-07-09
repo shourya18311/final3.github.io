@@ -353,6 +353,21 @@ html{
       }
 
       .skillstack{
-        font-size: 7vw; font-family:'Canela', serif; color: #000000; margin-left: -50vw;
+        font-size: 6.5vw; font-family:'Canela', serif; color: #000000; margin-left: -48vw;
     }
+
+    .skillset{
+      margin-left: -43vw; margin-top: -10vw;
+  }
+  
+  
+  .dimensions{
+      height: 90vw;
+  }
+
+
+  .me2{
+    height: 120vw; transform: rotate(13deg); margin-left: -7vw; margin-top: 75vw;
+
+}
 }
