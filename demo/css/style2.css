@@ -132,9 +132,7 @@ html{
     margin-top: 0vh;
   }
 
-  .logo{
-    font-size: 3.5vw; color: #6C4C35; opacity: 100; font-family:  'Playfair Display' , sans-serif; font-weight: lighter; margin-left: 4%;
-  }
+ 
   
   
   .fa:hover {
@@ -212,18 +210,14 @@ html{
     height: 40vw;
 }
 
-.custom-toggler .navbar-toggler-icon {
-         
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(108, 76, 53)'  stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    font-size: 10px;
-    outline: none;
-  }
+
+ 
+
+ 
+    
   
-  .custom-toggler.navbar-toggler {
-    border-color: rgb(108, 76, 53);
-    outline: none;
-  
-  }
+    
+
 
 
 
@@ -391,8 +385,10 @@ html{
 
 
 
+
 @media(max-width :375px){
 
+  
     .mainpic{
         height: 115vw; width: 86vw; margin-top: 12vh; margin-left: 7vw;
         box-shadow: 1px 1px #9A8383;
