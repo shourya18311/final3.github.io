@@ -97,7 +97,7 @@ html{
 
 
   .mainpic{
-    height: 90vh; width: 70vh; margin-top: 20vh; margin-left: 9.5vw;
+    height: 45vw; width: 70vh; margin-top: 20vh; margin-left: 9.5vw;
     box-shadow: 5px 5px #9A8383;
   }
   
@@ -222,6 +222,9 @@ html{
     height: 77vh; width: 60vh; margin-top: 20vh; margin-left: 7.5vw;
     box-shadow: 3px 3px #9A8383;
   }
+  .logo{
+    font-size: 3.5vw; color: #6C4C35; opacity: 100; font-family:  'Playfair Display' , sans-serif; font-weight: lighter; margin-left: 4%;
+  }
   
   .shouryaname{
     color:black;  
@@ -247,6 +250,16 @@ html{
      z-index: -1; opacity: 87%;
   }
 
+  .button {
+    margin-left: 69vw;
+    color: #6C4C35;
+    position: relative;
+    font-size: 5px;
+    outline: none;
+   
+    
+
+}
  
 
   
@@ -311,6 +324,8 @@ html{
   margin-top: 0vh;
 }
 
+
+
 }
 
  
@@ -329,15 +344,21 @@ html{
 
 
 
-@media(max-width: 850px) {
+@media(max-width: 980px) {
+
+  .xyz{
+    margin-right: 10vw;
+    margin-left: 10vw;
+  }
+  
   .mainpic{
     height: 115vw; width: 86vw; margin-top: 12vh; margin-left: 7vw;
     box-shadow: 1px 1px #9A8383;
   }
 
-.button{
-  margin-left: 67%;
-}
+ 
+
+
 .bg{
   background-image: url("fff.png");
   background-size: fit;
@@ -350,7 +371,7 @@ html{
 
 
 .logo{
-  font-size: 12vw;
+  font-size: 8vw;
 }
 .custom-toggler .navbar-toggler-icon
 {
@@ -468,7 +489,7 @@ html{
 .me2{
 height: 100vw; transform: rotate(4deg); margin-left: -0vw; margin-top: 95vw;
 
-}
+
 
 
 }
@@ -487,13 +508,11 @@ height: 100vw; transform: rotate(4deg); margin-left: -0vw; margin-top: 95vw;
   @media(max-width :520px){
 
     .mainpic{
-        height: 115vw; width: 86vw; margin-top: 12vh; margin-left: 7vw;
+        height: 115vw; width: 86vw; margin-top: 12vh; margin-left: 6vw;
         box-shadow: 1px 1px #9A8383;
       }
 
-    .button{
-      margin-left: 67%;
-    }
+     
     .bg{
       background-image: url("fff.png");
       background-size: fit;
@@ -506,7 +525,7 @@ height: 100vw; transform: rotate(4deg); margin-left: -0vw; margin-top: 95vw;
     
     
     .logo{
-      font-size: 12vw;
+      font-size: 8vw;
     }
     .custom-toggler .navbar-toggler-icon
     {
@@ -625,6 +644,10 @@ height: 100vw; transform: rotate(4deg); margin-left: -0vw; margin-top: 95vw;
     height: 125vw; transform: rotate(12deg); margin-left: -9vw; margin-top: 95vw;
 
 }
+
+.button{
+  margin-left: 70%;
+}
 }
 
 
@@ -635,13 +658,11 @@ height: 100vw; transform: rotate(4deg); margin-left: -0vw; margin-top: 95vw;
 
   
     .mainpic{
-        height: 115vw; width: 86vw; margin-top: 12vh; margin-left: 7vw;
+        height: 115vw; width: 86vw; margin-top: 12vh; margin-left: 6vw;
         box-shadow: 1px 1px #9A8383;
       }
 
-    .button{
-      margin-left: 67%;
-    }
+  
     .bg{
       background-image: url("fff.png");
       background-size: fit;
@@ -772,5 +793,9 @@ height: 100vw; transform: rotate(4deg); margin-left: -0vw; margin-top: 95vw;
   .me2{
     height: 125vw; transform: rotate(12deg); margin-left: -9vw; margin-top: 95vw;
 
+}
+.button{
+  margin-left: 67%;
+}
 }
 }
