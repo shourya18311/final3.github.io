@@ -62,6 +62,9 @@ html{
       .xyz:hover {
           color: burlywood;
       }
+      .logo{
+        font-size: 3.5vw; color: #6C4C35; opacity: 100; font-family:  'Playfair Display' , sans-serif; font-weight: lighter; margin-left: 4%;
+      }
 
 
 
@@ -197,8 +200,8 @@ html{
     margin-left: 2vw ; height: 37vw; margin-top: -70vh; transform: rotate(10deg);
 }
 
-.skilline{
-    width: 580px; margin-left: 4vw; margin-top: 2px; size: 10vw; background-color: #6C4C35;
+#skilline{
+    width: 580px; margin-left: 4vw; margin-top: 2px; size: 10vw; background-color: #6C4C35; height: 0.2vw !important; 
 }
 
 .skillset{
@@ -212,6 +215,103 @@ html{
 
 
  
+
+
+@media(max-width: 1128px){
+  .mainpic{
+    height: 77vh; width: 60vh; margin-top: 20vh; margin-left: 7.5vw;
+    box-shadow: 3px 3px #9A8383;
+  }
+  
+  .shouryaname{
+    color:black;  
+    font-family:'Canela', serif;  
+    font-size:  3.5vw; margin-top: 18vw;
+     margin-left: -8.5vw;
+      padding: 0px 0px; z-index: 1;
+  }
+  
+  .shouryahin{
+    color:black; 
+     font-family:'Montserrat' , open sans;  
+     font-size:  1.6vw; 
+     margin-top: 0.8vh; 
+     margin-left: 3.8vw;
+      padding: 0px 0px; z-index: 1;
+  }
+  
+  .brownstrip{
+    background-color: #6C4C35;
+     height: 30vw; width: 100%;  
+     margin-top: 6.5vw; 
+     z-index: -1; opacity: 87%;
+  }
+
+ 
+
+  
+.bgline{
+    margin-left: 35%;
+     width:30%;
+     margin-block-end: 35%; 
+     margin-top: 0.5%; 
+     border: 5px solid #6C4C35; 
+     opacity: 100; 
+     z-index: 1;
+     margin-bottom: 5vh;
+  }
+
+
+
+.me2{
+    height: 33vw; transform: rotate(-3deg); margin-left: 8vw;
+}
+
+
+.mebio{
+    margin-left: 4vw; margin-top: 3vw;  font-size: 1.6vw; font-family:'Karla' , sans-serif;  color: #222222; width: 38vw; line-height: 1.4;
+}
+
+
+.skillstack{
+    font-size: 3vw; font-family:'Canela', serif; color: #000000; margin-left: 4vw;
+}
+
+.quote{
+    margin-left: 8vw; margin-top: -20vw; font-size: 6vw; font-family:'Canela', serif; width: 60vw;
+}
+.me1{
+    margin-left: 5vw ; height: 39vw; margin-top: -45vh; transform: rotate(10deg);
+}
+
+.skilline{
+    width: 580px; margin-left: 4vw; margin-top: 2px; size: 10vw; background-color: #6C4C35;
+}
+
+.skillset{
+    margin-left: -3vw; margin-top: -5vw;
+}
+
+
+.dimensions{
+    height: 40vw;
+}
+.remove{
+  display: none;
+  visibility: hidden;
+}
+
+.fa {
+  padding: 1vw;
+  font-size: 3vw;
+ 
+  text-align: center;
+  text-decoration: none;
+  border-radius: 18%;
+  margin-top: 0vh;
+}
+
+}
 
  
     
@@ -227,6 +327,151 @@ html{
 
 
 
+
+
+@media(max-width: 850px) {
+  .mainpic{
+    height: 115vw; width: 86vw; margin-top: 12vh; margin-left: 7vw;
+    box-shadow: 1px 1px #9A8383;
+  }
+
+.button{
+  margin-left: 67%;
+}
+.bg{
+  background-image: url("fff.png");
+  background-size: fit;
+  height:55%;
+  background-attachment: fixed;
+
+}
+
+
+
+
+.logo{
+  font-size: 12vw;
+}
+.custom-toggler .navbar-toggler-icon
+{
+  font-size: 3.5vw;
+}
+.bgline{
+  margin-left: 25%;
+ width:50%;
+ margin-block-end: 25%;
+}
+
+.fa{
+  font-size: 6vw;
+  
+}
+
+.web{
+  display:none;
+}
+.distancebetweencontainer{
+  margin-top: 5vh;
+}
+
+.textdiv{
+  text-align: unset;
+ }
+ .p2{
+  
+  margin-left: 8vw;
+  font-size: 2.9vw;
+  width: 87vw;
+  margin-top: 0vh;
+  text-align: unset;
+
+  
+  padding-right: 0.8vw;
+}
+.p1_2{
+  margin-left: 8vw;
+  margin-top: -0.5vh;
+
+  font-size: 3vw;
+}
+.fa{
+  margin-top: 4vh;
+}
+.bgline{
+  border: 3px;
+}
+
+.distancebetweencontainer1{
+  margin-top: 5vh;
+}
+.xyz{
+  margin-right: 0vw;
+  margin-left: 0vw;
+}
+
+.shouryaname{
+    color:black;  
+    font-family:'Canela', serif;  
+    font-size:  8.5vw; margin-top: 5vw;
+     margin-left: 13vw;
+      padding: 0px 0px; z-index: 1;
+  }
+  
+  .shouryahin{
+    color:black; 
+     font-family:'canela' , serif;  
+     font-size:  5vw; 
+     margin-top: -0vw; 
+     margin-left: 65vw;
+      padding: 0px 0px; z-index: 1;
+  }
+
+  .mebio{
+    margin-left: 12vw; margin-top: 3vw;  font-size: 3.8vw; font-family:'Karla' , sans-serif;  color: #222222; width: 80vw; line-height: 1.4;
+    text-align: center;
+}
+
+.remove{
+    display: none;
+    visibility: hidden;
+}
+
+.me1{visibility: hidden;}
+
+.quote{
+    font-size: 8.7vw; font-family:'Canela', serif; width: 90vw;
+    margin-top: -29vw;
+    margin-left: 9.5vw;
+}
+
+.brownstrip{
+    background-color: #6C4C35;
+     height: 40vw; width: 100%;  
+     margin-top: 8.5vw; 
+     z-index: -1; opacity: 87%;
+  }
+
+  .skillstack{
+    font-size: 7.5vw; font-family:'Canela', serif; color: #000000; margin-left: -46vw; margin-top: 4vw;
+}
+
+.skillset{
+  margin-left: -48vw; margin-top: -16vw;
+}
+
+
+.dimensions{
+  height: 110vw;
+}
+
+
+.me2{
+height: 100vw; transform: rotate(4deg); margin-left: -0vw; margin-top: 95vw;
+
+}
+
+
+}
 
 
 
@@ -351,7 +596,7 @@ html{
 
     .quote{
         font-size: 8.7vw; font-family:'Canela', serif; width: 90vw;
-        margin-top: -27vw;
+        margin-top: -29vw;
         margin-left: 9.5vw;
     }
 
