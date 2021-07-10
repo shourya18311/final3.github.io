@@ -1,0 +1,335 @@
+@import url(//db.onlinewebfonts.com/c/b1edfa746f416280b3502ba39df2c3ae?family=Canela);
+   @font-face {font-family: "Canela"; 
+    src: url("//db.onlinewebfonts.com/t/b1edfa746f416280b3502ba39df2c3ae.eot"); 
+    src: url("//db.onlinewebfonts.com/t/b1edfa746f416280b3502ba39df2c3ae.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b1edfa746f416280b3502ba39df2c3ae.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b1edfa746f416280b3502ba39df2c3ae.woff") format("woff"), url("//db.onlinewebfonts.com/t/b1edfa746f416280b3502ba39df2c3ae.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b1edfa746f416280b3502ba39df2c3ae.svg#Canela") format("svg"); }
+   
+
+   html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+   body{line-height:1}
+   article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+   nav ul{list-style:none}
+   blockquote,q{quotes:none}
+   blockquote:before,blockquote:after,q:before,q:after{content:none}
+   a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+   mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+   del{text-decoration:line-through}
+   abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+   table{border-collapse:collapse;border-spacing:0}
+   hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+   input,select{vertical-align:middle}
+   li{list-style:none}
+  
+   /* =============================================================================
+      My CSS
+      ========================================================================== */
+   
+   /* ---- base ---- */
+html{
+  overflow-x:hidden;
+}
+  
+   *{
+    margin: 0;
+    padding: 0;
+    
+}
+:root {
+  --bg: #EFE7E3;
+  --text: #6C4C35;
+  --ctext: #FFFFFF;
+  --card1: #6CBCB1;
+  --card2: #90B8D2;
+  --card3: #DFB468;
+  --ftext: #000000;
+  --bg1: #D6B89B;
+  --box1: #F6DDB5;
+  --box2: #E3A18B;
+  --case1: #90b8d2;
+}
+
+.xyz {
+          font-style: bold;
+          font-size: 2.4vw;
+          color: #6C4C35;
+          font-family: 'Playfair Display', sans-serif;
+        
+
+      }
+
+      .xyz:hover {
+          color: burlywood;
+      }
+      .logo{
+        font-size: 3.5vw; color: #6C4C35; opacity: 100; font-family:  'Playfair Display' , sans-serif; font-weight: lighter; margin-left: 4%;
+      }
+
+
+
+
+
+
+
+
+
+   
+   html,body{ 
+     width:100%;
+     height:100%;
+     background:#EFE7E3;
+   }
+   
+   html{
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   }
+   
+   html-element {
+    font-family: 'canela', Helvetica, Arial, sans-serif;
+  }
+
+   body{
+    margin: 0;
+    font-family: 'Roboto Slab', sans-serif;
+    height: 100%;
+    
+   }
+   
+   canvas{
+     display:block;
+     vertical-align:bottom;
+   }
+
+   .custom-toggler .navbar-toggler-icon {
+         
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(108, 76, 53)'  stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    font-size: 10px;
+    outline: none;
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: rgb(108, 76, 53);
+    outline: none;
+  
+  }
+  
+  .logo{
+    font-size: 5vw; color: #6C4C35; opacity: 100; font-family:  'Playfair Display' , sans-serif; font-weight: lighter; margin-left: 4%;
+  }
+
+  
+.button {
+    margin-left: 69vw;
+    color: #6C4C35;
+    position: relative;
+    font-size: 5px;
+    outline: none;
+   
+    
+
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1500px ){
+  
+
+  
+  
+  .logo{
+    font-size: 5vw;
+  }
+  .custom-toggler .navbar-toggler-icon
+  {
+    font-size: 3.5vw;
+  }
+  
+
+
+
+.button{
+  margin-left: 75vw;
+  font-size: 1vw;
+}
+.xyz {
+  font-style: bold;
+  font-size: 3.5vw;
+  color: #6C4C35;
+  font-family: 'Playfair Display', sans-serif;
+  margin-right: 3.5vw;
+  margin-left: -2.5vw;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 850px) {
+
+  
+  .button{
+    margin-right: 0vw;
+  }
+  
+  .logo{
+    font-size: 8vw
+  }
+  .custom-toggler .navbar-toggler-icon
+  {
+    font-size: 3vw;
+    
+  }
+  
+  .xyz{
+    margin-right: 0vw;
+    margin-left: 0vw;
+  }
+ 
+  
+
+}
+
+
+
+
+
+
+
+
+
+  
+@media(max-width :520px){
+  .button{
+    margin-left: 70%;
+  }
+
+
+.logo{
+  font-size: 12vw;
+}
+.custom-toggler .navbar-toggler-icon
+{
+  font-size: 3.5vw;
+}
+.web{
+  display: none;
+}
+
+
+
+.xyz{
+  margin-right: 0vw;
+  margin-left: 0vw;
+}
+
+
+
+
+
+
+}
+
+@media(max-width :375px){
+
+  .button{
+    margin-left: 67%;
+  }
+  
+
+
+  
+
+  
+
+
+
+  
+  .logo{
+    font-size: 12vw;
+  }
+  .custom-toggler .navbar-toggler-icon
+  {
+    font-size: 3.5vw;
+  }
+
+  .web{
+    display:none;
+  }
+
+
+
+ 
+  .xyz{
+    margin-right: 0vw;
+    margin-left: 0vw;
+  }
+  
+  
+    
+  }

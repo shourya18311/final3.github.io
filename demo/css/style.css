@@ -36,35 +36,23 @@ html{
     padding: 0;
     
 }
+:root {
+  --bg: #EFE7E3;
+  --text: #6C4C35;
+  --ctext: #FFFFFF;
+  --card1: #6CBCB1;
+  --card2: #90B8D2;
+  --card3: #DFB468;
+  --ftext: #000000;
+  --bg1: #D6B89B;
+  --box1: #F6DDB5;
+  --box2: #E3A18B;
+  --case1: #90b8d2;
+}
 
 
 
-      :root {
-          --bg: #EFE7E3;
-          --text: #6C4C35;
-          --ctext: #FFFFFF;
-          --card1: #6CBCB1;
-          --card2: #90B8D2;
-          --card3: #DFB468;
-          --ftext: #000000;
-          --bg1: #D6B89B;
-          --box1: #F6DDB5;
-          --box2: #E3A18B;
-          --case1: #90b8d2;
-      }
 
-      .xyz {
-          font-style: bold;
-          font-size: 2.4vw;
-          color: #6C4C35;
-          font-family: 'Playfair Display', sans-serif;
-        
-
-      }
-
-      .xyz:hover {
-          color: burlywood;
-      }
 
 
 
@@ -127,33 +115,9 @@ html{
     
 }
 
-.button {
-    margin-left: 69vw;
-    color: #6C4C35;
-    position: relative;
-    font-size: 5px;
-    outline: none;
-   
-    
 
-}
 
-.custom-toggler .navbar-toggler-icon {
-         
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(108, 76, 53)'  stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  font-size: 10px;
-  outline: none;
-}
 
-.custom-toggler.navbar-toggler {
-  border-color: rgb(108, 76, 53);
-  outline: none;
-
-}
-
-.logo{
-  font-size: 3.5vw; color: #6C4C35; opacity: 100; font-family:  'Playfair Display' , sans-serif; font-weight: lighter; margin-left: 4%;
-}
 
 .bg{
   background-image: url("cover@3x.png");
@@ -484,9 +448,7 @@ html{
     font-size: 1.5vw;
   }
   
-  .logo{
-    font-size: 7vw;
-  }
+ 
   .custom-toggler .navbar-toggler-icon
   {
     font-size: 3.5vw;
@@ -559,19 +521,8 @@ html{
   margin-right: 00vw;
 }
 
-.button{
-  margin-left: 75vw;
-  font-size: 1vw;
-}
-.xyz {
-  font-style: bold;
-  font-size: 4vw;
-  color: #6C4C35;
-  font-family: 'Playfair Display', sans-serif;
-  margin-right: 6vw;
-  margin-left: -2.5vw;
 
-}
+
 
 .distancebetweencontainer1{
   margin-top: 53vh;
@@ -649,9 +600,7 @@ html{
     font-size: 1.3vw;
   }
   
-  .logo{
-    font-size: 7vw;
-  }
+
   .custom-toggler .navbar-toggler-icon
   {
     font-size: 3.5vw;
@@ -724,27 +673,13 @@ html{
   margin-right: 00vw;
 }
 
-.button{
-  margin-left: 74vw;
-  font-size: 1vw;
-}
-.xyz {
-  font-style: bold;
-  font-size: 4vw;
-  color: #6C4C35;
-  font-family: 'Playfair Display', sans-serif;
-  margin-right: 9vw;
-  margin-left: -4vw;
 
-}
+
 .distancebetweencontainer1{
   margin-top: 45vh;
 }
 
-.xyz{
-  margin-right: 4vw;
-  margin-left: -1.7vw;
-}
+
 
 
 
@@ -765,7 +700,7 @@ html{
 
 
 
-@media(max-width: 850px) {
+@media(max-width: 991px) {
 
   .bg{
     background-image: url("../css/kk.png") ;
@@ -798,9 +733,7 @@ html{
   height: 60vh;
   
   }
-  .button{
-    margin-right: 0vw;
-  }
+
   
   .designhead{
     margin-top: -40vh;
@@ -855,9 +788,7 @@ html{
     font-size: 2.4vw;
   }
   
-  .logo{
-    font-size: 10vw;
-  }
+ 
   .custom-toggler .navbar-toggler-icon
   {
     font-size: 3vw;
@@ -914,10 +845,7 @@ html{
   .distancebetweencontainer1{
     margin-top: 5vh;
   }
-  .xyz{
-    margin-right: 0vw;
-    margin-left: 0vw;
-  }
+
  
   
 
@@ -933,9 +861,7 @@ html{
 
   
 @media(max-width :520px){
-  .button{
-    margin-left: 70%;
-  }
+
 .bg{
   background-image: url("fff.png");
   background-size: fit;
@@ -1030,9 +956,6 @@ height: 47vh;
   font-size: 3vw;
 }
 
-.logo{
-  font-size: 12vw;
-}
 .custom-toggler .navbar-toggler-icon
 {
   font-size: 3.5vw;
@@ -1074,10 +997,7 @@ height: 47vh;
   margin-top: 5vh;
 }
 
-.xyz{
-  margin-right: 0vw;
-  margin-left: 0vw;
-}
+
 
 
 
@@ -1088,9 +1008,7 @@ height: 47vh;
 
 @media(max-width :375px){
 
-  .button{
-    margin-left: 67%;
-  }
+ 
   .bg{
     background-image: url("fff.png");
     background-size: fit;
@@ -1175,9 +1093,7 @@ height: 47vh;
     font-size: 3vw;
   }
   
-  .logo{
-    font-size: 12vw;
-  }
+
   .custom-toggler .navbar-toggler-icon
   {
     font-size: 3.5vw;
@@ -1230,10 +1146,7 @@ height: 47vh;
   .distancebetweencontainer1{
     margin-top: 5vh;
   }
-  .xyz{
-    margin-right: 0vw;
-    margin-left: 0vw;
-  }
+
   
   
     
